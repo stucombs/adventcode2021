@@ -1,4 +1,4 @@
-FILE = 'assets/depths.txt';
+FILE = 'depths.txt';
 
 rf = open(FILE);
 arrNums = [];
