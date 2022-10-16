@@ -4,6 +4,7 @@
 
 FILE = 'positions.txt';
 
+# get input as text into array
 rf = open(FILE);
 arrPos = [];
 # strip newline, add line to array for easier indexing
@@ -12,6 +13,7 @@ for line in rf.readlines():
 	arrPos.append(line);
 rf.close();
 
+# begin problem
 X=0;
 Y=0;
 for pos in arrPos:
